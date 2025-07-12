@@ -1,0 +1,53 @@
+body{
+background-color:#1b1b32;
+margin:center;
+color:#f5f6f7;
+}
+form{
+  width:60%;
+  margin:0 auto;
+}
+h1,p{
+  margin:1em auto;
+  text-align:center;
+  font-size:35px;
+  
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size:20px;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input,select,submit{
+  width:100%;
+  font-size:15px;
+  
+}
+textarea{
+  width:322px;
+  height:100px;
+  max-width:500x;
+  max-height:300px;
+
+}
+fieldset{
+  margin:0.5em auto;
+}
+legend{
+  font-size:20px;
+}
+submit{
+  width:1em auto;
+  height:300;
+}
+select{
+  width:100%
+}
+p{
+  font-size:20px;
+}
