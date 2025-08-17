@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            background:linear-gradient(135deg,rgb(17, 17, 163),rgb(77, 58, 58));
+            padding: 0;
+            margin: 0 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+
+        }
+        .card{
+            background-color: rgb(130, 131, 130);
+            padding: 40px;
+            width: 350px;
+            border-radius: 20px;
+            
+        }
+        h1,h3{
+            text-align: center;
+            color:rgb(15, 16, 16);
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        input{
+            color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            height: 25px;
+            padding: 5px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;    
+            max-width: 500px;
+            min-width: 300px;        
+        }
+        button{
+            
+            background-color: rgba(7, 107, 248, 0.45);
+            border-radius: 10px;
+            width:300px;
+            height: 38px;
+            margin:5px auto;
+
+        }
+        a{
+            color: #fff;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        a:hover{
+            color: rgb(53, 53, 104);
+        }
+        label{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 5px;
+            color: rgb(18, 17, 17);
+        }
+        button:hover{
+            background: linear-gradient(135deg,rgb(14, 213, 83),rgba(12, 12, 106, 0.879),rgb(17, 169, 174));
+            color:#fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Login</h1>
+        <form >
+            <label>Email</label>
+            <input type="Email" name="" id="" placeholder="Email" required>
+            <label>Password</label>
+            <input type="password" name="" id="password" placeholder="password" minlength="6" required>
+            <a href="/Login Page/forgot-password.html">forgot password?</a>
+            <button type="submit">Sign In</button>
+            <h3>OR</h3>
+            <label >Create an account?
+                <a href="/Login Page/register.html">register</a>
+            </label>
+            
+        </form>
+        
+        
+    </div>
+</body>
+</html>
